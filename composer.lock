@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6124b9b4592b6d842f2096884e59590b",
+    "content-hash": "20523138b074a5acf8b1d448520011b7",
     "packages": [
         {
             "name": "ndrstmr/steg",
-            "version": "dev-main",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ndrstmr/steg.git",
+                "reference": "52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b"
+            },
             "dist": {
-                "type": "path",
-                "url": "../steg",
-                "reference": "ce0306bcd5ef59699055926f3ff6f4b0f4afc131"
+                "type": "zip",
+                "url": "https://api.github.com/repos/ndrstmr/steg/zipball/52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b",
+                "reference": "52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.4",
@@ -36,11 +42,7 @@
                     "Steg\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Steg\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "EUPL-1.2"
             ],
@@ -53,8 +55,8 @@
             ],
             "description": "The local inference bridge for PHP — lightweight client for OpenAI-compatible inference servers (vLLM, Ollama, LiteLLM, LocalAI)",
             "keywords": [
+                "Bridge",
                 "ai",
-                "bridge",
                 "inference",
                 "llm",
                 "local-first",
@@ -63,10 +65,11 @@
                 "php",
                 "vllm"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/ndrstmr/steg/issues",
+                "source": "https://github.com/ndrstmr/steg/tree/v1.0.0"
+            },
+            "time": "2026-03-24T18:48:28+00:00"
         },
         {
             "name": "psr/cache",
@@ -5838,10 +5841,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "ndrstmr/steg": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
