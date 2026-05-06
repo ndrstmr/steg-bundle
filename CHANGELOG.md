@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-05-06
+
+### Changed
+- Bumped `ndrstmr/steg` constraint from `^1.0` to `^1.0.1`. The `InferenceClientInterface::class` DI alias relies on `StegClient` implementing the interface, which was only added in Steg v1.0.1. Installing this bundle against Steg v1.0.0 produced a TypeError at request time when consumers typehinted the interface in their constructors.
+
+### Documentation
+- README now states the minimum required Steg version explicitly.
+
+## [0.1.0] — 2026-05-06
+
 ### Added
 - `StegBundle` — Symfony Bundle class
 - `StegExtension` — DI registration of StegClient services per connection
