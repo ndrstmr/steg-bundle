@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8e2aa8ba54edb1d17667d34a75e3b71",
+    "content-hash": "418a9262511c882449700eb7eb67d03b",
     "packages": [
         {
             "name": "ndrstmr/steg",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ndrstmr/steg.git",
-                "reference": "52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b"
+                "reference": "b2d970765d0535861dc99260786826fe00bbcd10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ndrstmr/steg/zipball/52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b",
-                "reference": "52c47cdd0ac025a7e6642b0c6ddfee0604ae4b3b",
+                "url": "https://api.github.com/repos/ndrstmr/steg/zipball/b2d970765d0535861dc99260786826fe00bbcd10",
+                "reference": "b2d970765d0535861dc99260786826fe00bbcd10",
                 "shasum": ""
             },
             "require": {
@@ -67,9 +67,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ndrstmr/steg/issues",
-                "source": "https://github.com/ndrstmr/steg/tree/v1.0.0"
+                "source": "https://github.com/ndrstmr/steg/tree/v1.0.1"
             },
-            "time": "2026-03-24T18:48:28+00:00"
+            "time": "2026-05-06T09:35:07+00:00"
         },
         {
             "name": "psr/cache",

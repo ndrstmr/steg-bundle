@@ -9,7 +9,7 @@
 
 - PHP 8.2+
 - Symfony 7.0+ or 8.0+
-- [ndrstmr/steg](https://github.com/ndrstmr/steg) ^1.0
+- [ndrstmr/steg](https://github.com/ndrstmr/steg) ^1.0.1 (v1.0.0 has an incompatible `StegClient` and is not supported)
 
 ## Installation
 
